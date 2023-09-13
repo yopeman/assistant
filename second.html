@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+margin: 0;
+/*background-image: url('/assist.jpg');*/
+background-color: black;
+}
+img{
+width: 50%;
+float: left;
+}
+input{
+  width: 80%;
+  border: 1px solid black;
+}
+button{
+width: 15%;
+}
+.bord{
+border: 2px solid black;
+background-color: white;
+/*width: 70%;*/
+}
+iframe{
+width: 100%;
+height: 5000px;
+border: none;
+color: white;
+}
+
+</style>
+
+<title>Assistant</title>
+
+<base target="ask">
+
+</head>
+
+<body>
+<div class="bord">
+<iframe src="ifr.html" style="width: 100%;float: left;height:505px" name="ask" ondblclick="ref()"></iframe>
+  
+ <form action="https://www.bing.com/search?q" method="get" >
+<input type="search" name="q">
+<button type="submit">Ask</button>
+</form>
+</div><br>
+<!--iframe name="ask"></iframe-->
+</body>
+
+<script>
+alert("YOHANES DEBEBE : yopeman318@gmail.com");
+function ref() {
+    window.location="index.html"
+  }
+</script>
+</html>
